@@ -649,7 +649,7 @@ footer{background:var(--brand-dark);border-top:2px solid var(--red);padding:1.8r
     <div class="section-label" data-en="Investment" data-es="Inversion">Investment</div>
     <h2 class="section-title" data-en="Corporate packages" data-es="Paquetes corporativos">Corporate packages</h2>
     <div class="red-divider"></div>
-    <div class="pricing-grid biz-pricing-es">
+    <div class="pricing-grid biz-pricing-es" style="display:none">
       <div class="price-card corp-price">
         <div class="price-tier">Individual &middot; Ejecutivo &middot; desde 4h/mes</div>
         <div class="price-amount"><span style="font-size:16px;font-family:'DM Sans',sans-serif;font-weight:300;display:block;margin-bottom:2px">Desde</span><span>$3,900</span></div>
@@ -685,8 +685,8 @@ footer{background:var(--brand-dark);border-top:2px solid var(--red);padding:1.8r
         </ul>
       </div>
     </div>
-    <p class="iva-note biz-pricing-es">* Todos los precios son antes de IVA. Facturacion oficial disponible conforme a la legislacion fiscal mexicana (SAT).</p>
-    <div class="pricing-grid biz-pricing-en" style="display:none">
+    <p class="iva-note biz-pricing-es" style="display:none">* Todos los precios son antes de IVA. Facturacion oficial disponible conforme a la legislacion fiscal mexicana (SAT).</p>
+    <div class="pricing-grid biz-pricing-en">
       <div class="price-card corp-price">
         <div class="price-tier">Individual &middot; Executive &middot; from 4h/month</div>
         <div class="price-amount"><span style="font-size:16px;font-family:'DM Sans',sans-serif;font-weight:300;display:block;margin-bottom:2px">From</span><sup style="font-size:16px;vertical-align:super">$</sup><span>299</span></div>
@@ -722,7 +722,7 @@ footer{background:var(--brand-dark);border-top:2px solid var(--red);padding:1.8r
         </ul>
       </div>
     </div>
-    <p class="iva-note biz-pricing-en" style="display:none">* Pricing is listed in USD. Contact us for a detailed proposal tailored to your company.</p>
+    <p class="iva-note biz-pricing-en">* Pricing is listed in USD. Contact us for a detailed proposal tailored to your company.</p>
   </div>
 </section>
 
@@ -949,6 +949,7 @@ function sendInd(){const name=document.getElementById('i-name').value;const lang
 function sendBiz(){const co=document.getElementById('b-co').value;const name=document.getElementById('b-name').value;const type=document.getElementById('b-type').value;const msg=document.getElementById('b-msg').value;const text=encodeURIComponent('Corporate inquiry - '+(name||'contact')+' from '+(co||'company')+'. Program: '+type+'.'+(msg?' '+msg:''));window.open('https://wa.me/380983892237?text='+text,'_blank');}
 function sendTrad(){const name=document.getElementById('t-name').value;const type=document.getElementById('t-type').value;const msg=document.getElementById('t-msg').value;const text=encodeURIComponent('Translation inquiry from '+(name||'client')+'. Service: '+type+'.'+(msg?' '+msg:''));window.open('https://wa.me/380983892237?text='+text,'_blank');}
 document.getElementById('navLinks').style.visibility='hidden';
+setLang('en');
 updatePrices();
 </script>
 </body>
