@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main site -->
+  <url>
+    <loc>https://www.languagehotspot.com/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Blog index -->
+  <url>
+    <loc>https://www.languagehotspot.com/blog/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog articles — EN -->
+  <url>
+    <loc>https://www.languagehotspot.com/blog/language-talent-myth</loc>
+    <lastmod>2025-04-12</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/linguistic-anxiety-corporate-english</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/corporate-english-training-mistake</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/knowing-english-vs-communicating-invisible-gap</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/small-group-english-training-vs-mass-courses</loc>
+    <lastmod>2025-04-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/binational-talent-mexico-us-border-english</loc>
+    <lastmod>2025-05-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog articles — ES -->
+  <url>
+    <loc>https://www.languagehotspot.com/blog/ansiedad-linguistica-ingles-corporativo</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/error-ingles-corporativo-cursos-genericos</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/saber-ingles-vs-comunicarse-brecha-invisible</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/grupos-pequenos-vs-cursos-masivos-ingles</loc>
+    <lastmod>2025-04-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.languagehotspot.com/blog/talento-binacional-ingles-industria-fronteriza</loc>
+    <lastmod>2025-05-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
