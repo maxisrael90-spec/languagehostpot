@@ -49,7 +49,10 @@ nav{position:sticky;top:0;z-index:200;background:var(--brand-dark);border-bottom
 .landing-tagline{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,52px);font-weight:600;color:#fff;line-height:1.15;margin-bottom:0.8rem;position:relative;z-index:1}
 .landing-tagline em{color:var(--gold-light);font-style:normal}
 .landing-sub{font-size:15px;font-weight:300;color:rgba(255,255,255,0.65);max-width:500px;margin:0 auto 3rem;line-height:1.7;position:relative;z-index:1}
-.landing-cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;max-width:900px;width:100%;position:relative;z-index:1}
+.landing-cards{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:1.5rem;max-width:1100px;width:100%;position:relative;z-index:1}
+.lcard-blog{background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.15)}
+.lcard-blog:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.35)}
+.lcard-blog-arrow{color:rgba(255,255,255,0.7)}
 .lcard{border-radius:16px;padding:2.5rem 2rem;cursor:pointer;transition:transform 0.25s,box-shadow 0.25s;text-align:left;border:1px solid transparent}
 .lcard:hover{transform:translateY(-4px)}
 .lcard-ind{background:rgba(255,255,255,0.08);border-color:rgba(196,154,60,0.35)}
@@ -240,6 +243,7 @@ footer{background:var(--brand-dark);border-top:2px solid var(--red);padding:1.8r
     <a href="#" id="nav-ind" onclick="setMode('ind');return false" data-en="For Individuals" data-es="Para Particulares">For Individuals</a>
     <a href="#" id="nav-biz" onclick="setMode('biz');return false" data-en="For Businesses" data-es="Para Empresas">For Businesses</a>
     <a href="#" id="nav-trad" onclick="setMode('trad');return false" data-en="Translation" data-es="Traduccion">Translation</a>
+    <a href="/blog/" data-en="Blog" data-es="Blog">Blog</a>
   </div>
   <div class="nav-right">
     <div class="lang-toggle">
@@ -272,6 +276,12 @@ footer{background:var(--brand-dark);border-top:2px solid var(--red);padding:1.8r
       <div class="lcard-desc" data-en="Professional EN&harr;ES translation and subtitling for NGOs, corporations, and documentary projects. High precision, fast turnaround." data-es="Traduccion y subtitulaje profesional EN&harr;ES para ONGs, corporaciones y proyectos documentales. Alta precision, entrega rapida.">Professional EN&harr;ES translation and subtitling for NGOs, corporations, and documentary projects.</div>
       <div class="lcard-arrow" data-en="Learn more &rarr;" data-es="Ver mas &rarr;">Learn more &rarr;</div>
     </div>
+    <a class="lcard lcard-blog" href="/blog/" style="text-decoration:none">
+      <div class="lcard-icon">&#9997;&#65039;</div>
+      <div class="lcard-title" data-en="Blog" data-es="Blog">Blog</div>
+      <div class="lcard-desc" data-en="Language learning insights, corporate English tips, and bilingual workforce perspectives. In English and Spanish." data-es="Reflexiones sobre aprendizaje de idiomas, ingles corporativo y bilingüismo. En español e ingles.">Language learning insights, corporate English tips, and bilingual workforce perspectives.</div>
+      <div class="lcard-arrow lcard-blog-arrow" data-en="Read articles &rarr;" data-es="Leer articulos &rarr;">Read articles &rarr;</div>
+    </a>
   </div>
 </div>
 <!-- INDIVIDUALS PAGE - SEO NOTE: Always in DOM, visible to crawlers -->
@@ -928,6 +938,7 @@ footer{background:var(--brand-dark);border-top:2px solid var(--red);padding:1.8r
     <a href="#" onclick="setMode('ind');return false" data-en="For Individuals" data-es="Para Particulares">For Individuals</a>
     <a href="#" onclick="setMode('biz');return false" data-en="For Businesses" data-es="Para Empresas">For Businesses</a>
     <a href="#" onclick="setMode('trad');return false" data-en="Translation" data-es="Traduccion">Translation</a>
+    <a href="/blog/" data-en="Blog" data-es="Blog">Blog</a>
     <a href="https://wa.me/380983892237" target="_blank" rel="noopener">WhatsApp</a>
     <a href="https://instagram.com/languagehotspot" target="_blank" rel="noopener">Instagram</a>
     <a href="https://www.linkedin.com/in/max-valdiviezo/" target="_blank" rel="noopener">LinkedIn</a>
